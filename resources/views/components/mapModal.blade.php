@@ -17,4 +17,4 @@
     </div>
 </div>
 <script src="{{asset('js/select-location-on-map.js')}}"></script>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDnzOm5LfUi_94uz3nPjW-LExL14iqfLmU&callback=initMap" type="text/javascript"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=.....&callback=initMap" type="text/javascript"></script>
