@@ -1,0 +1,108 @@
+.driver-licence-image {
+    border: 1px solid darkgray;
+    border-radius: 5px;
+}
+
+.custom-badge {
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    /* margin: 10px; */
+    padding: 5px;
+    width: 100px;
+}
+
+.hint {
+    margin: 0 10px;
+}
+
+.create-job {
+    margin-right: 25px;
+    margin-bottom: 25px;
+    width: 200px;
+}
+
+.custom-map-icon {
+    cursor: pointer;
+    font-size: 26px;
+    margin-top: 5px;
+}
+
+.map-fullscreen {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.job-detail-box {
+    display: none;
+    background-color: silver;
+    margin: 15px;
+    padding: 10px;
+    position: relative;
+    z-index: 2;
+}
+
+/* The switch - the box around the slider */
+.custom-switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.custom-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.custom-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.custom-slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .custom-slider {
+    background-color: #2196F3;
+}
+
+input:focus + .custom-slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .custom-slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.custom-slider.round {
+    border-radius: 34px;
+}
+
+.custom-slider.round:before {
+    border-radius: 50%;
+}
