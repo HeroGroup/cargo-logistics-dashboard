@@ -9,7 +9,7 @@ class NotificationController extends Controller
 {
     public static function sendPushNotification($data, $to, $options)
     {
-        $apiKey = '878159cedeab4f3effe827795c1b46d57a81a487c8710caefeafa80b0e1b3b69';
+        $apiKey = '.....';
         $post = $options ?: array();
         $post['to'] = $to;
         $post['data'] = $data;

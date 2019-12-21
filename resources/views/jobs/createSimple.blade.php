@@ -261,5 +261,5 @@
         }
     </script>
     <script type="text/javascript" src="{{asset('js/google-places.js')}}"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDnzOm5LfUi_94uz3nPjW-LExL14iqfLmU&libraries=places&callback=initAutocomplete" type="text/javascript"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=.....&libraries=places&callback=initAutocomplete" type="text/javascript"></script>
 @endsection

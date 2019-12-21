@@ -282,7 +282,7 @@ class JobController extends Controller
             return -1;
 
         try {
-            $apiKey = 'AIzaSyDnzOm5LfUi_94uz3nPjW-LExL14iqfLmU';
+            $apiKey = '.....';
             $url = "https://maps.googleapis.com/maps/api/distancematrix/json?origins=$latitudeFrom,$longitudeFrom&destinations=$latitudeTo,$longitudeTo&key=$apiKey";
             $ch = curl_init();
             curl_setopt($ch, CURLOPT_URL, $url);
